@@ -1,0 +1,19 @@
+
+
+<div class="page-header">
+  <div class = "pull-right">
+    <%= link_to 'Edit', edit_event_path, class: 'btn btn-info' %>
+  </div>
+  <h1><%= @event.description %></h1>
+</div>
+
+<ol class="breadcrumb">
+  <li><a href="/events">Events</a></li>
+  <li class="active"><%= @event.description %></li>
+</ol>
+
+
+<div class="container">
+<strong>Date</strong>
+<%= @event.date.to_s.gsub("-","/") %>
+</div>

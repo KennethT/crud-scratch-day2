@@ -1,0 +1,9 @@
+<h1>Edit Events</h1>
+
+<ol class="breadcrumb">
+  <li><%= link_to 'Events', events_path %></li>
+  <li><%= link_to @event.description, @event %></li>
+  <li class="active"><%= @event.description %></li>
+</ol>
+
+<%= render 'form' %>
