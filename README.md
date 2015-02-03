@@ -28,16 +28,20 @@ To make this work:
 
 * As you finish each task, check off the item you've completed
 
+
+ * Stories
+
 * Create an events index page that lists all events in a table.
 * Link to "New Event" that allows users to create events.
 * From Events Index page link to all show pages for events.
+* From Events Index page, link to "Delete", that deletes that event.
 * Show page that shows all event details.
 * Show Page also has Breadcrumb back to index(link to index)
 * Edit Page that shows event details and allows user to make updates.
 * Edit Page also has Breadcrumbs(links to show and index page)
 
-* Don't worry about CSS and formatting.
-* CRU CRU CRU!!!
+* Don't worry about CSS or formatting.
+* CRUD CRUD CRUD!!!
 
 NOTE: no need to include Twitter Bootstrap here.
 NOTE: gl hf
